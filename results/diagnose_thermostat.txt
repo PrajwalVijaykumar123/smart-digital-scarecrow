@@ -1,0 +1,17 @@
+Ecobee_Thermostat: alarm threshold (99th percentile of normal) = 1.99
+Constant features in normal traffic (zero variance): 0 of 115
+
+normal (test): median row score 0.68, above threshold 1.1%, features with mean |z| > 3: 0
+   top features: HpHp_L1_std (0.9), HH_L1_std (0.9), HpHp_L0.01_std (0.9)
+
+mirai_attacks/ack: median row score 501.04, above threshold 100.0%, features with mean |z| > 3: 29
+   top features: H_L0.01_weight (10579.3), MI_dir_L0.01_weight (10560.0), HH_L0.01_weight (5616.7)
+
+gafgyt_attacks/combo: median row score 570.85, above threshold 100.0%, features with mean |z| > 3: 22
+   top features: H_L0.01_weight (7267.7), MI_dir_L0.01_weight (7254.5), HH_L0.01_weight (6847.7)
+
+gafgyt_attacks/tcp: median row score 1.91, above threshold 0.0%, features with mean |z| > 3: 9
+   top features: HH_jit_L5_mean (22.7), HH_jit_L3_mean (22.5), HH_jit_L1_mean (22.0)
+
+gafgyt_attacks/udp: median row score 1.91, above threshold 0.1%, features with mean |z| > 3: 9
+   top features: HH_jit_L5_mean (22.7), HH_jit_L3_mean (22.5), HH_jit_L1_mean (22.0)
