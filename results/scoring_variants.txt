@@ -1,0 +1,30 @@
+
+==== Danmini_Doorbell  (threshold = 99th percentile of normal training data) ====
+FALSE ALARMS on normal traffic:
+  mean|z|:   1.1%  max|z|:   1.0%  n(|z|>5):   0.8%
+ATTACKS DETECTED:
+  mirai/ack.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/scan.csv      mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/syn.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/udp.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/udpplain.csv  mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  gafgy/combo.csv     mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  gafgy/junk.csv      mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  gafgy/scan.csv      mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5):  98.6%
+  gafgy/tcp.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5):   0.1%
+  gafgy/udp.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5):   0.0%
+
+==== Ecobee_Thermostat  (threshold = 99th percentile of normal training data) ====
+FALSE ALARMS on normal traffic:
+  mean|z|:   1.1%  max|z|:   1.0%  n(|z|>5):   1.1%
+ATTACKS DETECTED:
+  mirai/ack.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/scan.csv      mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/syn.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/udp.csv       mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  mirai/udpplain.csv  mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  gafgy/combo.csv     mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  gafgy/junk.csv      mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5): 100.0%
+  gafgy/scan.csv      mean|z|: 100.0%  max|z|: 100.0%  n(|z|>5):  99.9%
+  gafgy/tcp.csv       mean|z|:   0.0%  max|z|: 100.0%  n(|z|>5):   0.1%
+  gafgy/udp.csv       mean|z|:   0.1%  max|z|: 100.0%  n(|z|>5):   0.1%
