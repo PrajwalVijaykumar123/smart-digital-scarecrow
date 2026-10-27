@@ -1,0 +1,30 @@
+
+==== trained on Danmini_Doorbell, tested on Ecobee_Thermostat  (one model for every device) ====
+FALSE ALARMS on normal traffic (lower is better):
+  iforest:  55.1%  zscore:  93.5%  autoenc:  93.7%
+ATTACKS DETECTED (higher is better):
+  mirai/ack.csv       iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  mirai/scan.csv      iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  mirai/syn.csv       iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  mirai/udp.csv       iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  mirai/udpplain.csv  iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/combo.csv     iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/junk.csv      iforest: 100.0%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/scan.csv      iforest:  99.9%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/tcp.csv       iforest:   0.1%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/udp.csv       iforest:   0.1%  zscore: 100.0%  autoenc: 100.0%
+
+==== trained on Ecobee_Thermostat, tested on Ecobee_Thermostat  (a model per device) ====
+FALSE ALARMS on normal traffic (lower is better):
+  iforest:   1.0%  zscore:   1.1%  autoenc:   1.1%
+ATTACKS DETECTED (higher is better):
+  mirai/ack.csv       iforest:  97.3%  zscore: 100.0%  autoenc: 100.0%
+  mirai/scan.csv      iforest:   0.0%  zscore: 100.0%  autoenc: 100.0%
+  mirai/syn.csv       iforest:   0.0%  zscore: 100.0%  autoenc: 100.0%
+  mirai/udp.csv       iforest:  95.4%  zscore: 100.0%  autoenc: 100.0%
+  mirai/udpplain.csv  iforest:  98.1%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/combo.csv     iforest:   0.0%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/junk.csv      iforest:   0.1%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/scan.csv      iforest:   0.6%  zscore: 100.0%  autoenc: 100.0%
+  gafgy/tcp.csv       iforest:   0.0%  zscore:   0.0%  autoenc:   0.1%
+  gafgy/udp.csv       iforest:   0.0%  zscore:   0.1%  autoenc:   0.1%
