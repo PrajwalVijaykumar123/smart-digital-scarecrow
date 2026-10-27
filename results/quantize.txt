@@ -1,0 +1,36 @@
+Saved artifact at '/var/folders/mv/str1g7j55k5g022yvk78ztjh0000gn/T/tmpo1s3is08'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(None, 115), dtype=tf.float32, name='input_layer')
+Output Type:
+  TensorSpec(shape=(None, 115), dtype=tf.float32, name=None)
+Captures:
+  4818846544: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818846736: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818848464: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818847312: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818849040: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818849232: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818847504: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  4818846928: TensorSpec(shape=(), dtype=tf.resource, name=None)
+Float model:  4091 parameters, about 16 KB
+Int8 model:   10.8 KB as a .tflite file
+Input range the int8 model can represent: -14.7 to +63.4 standard deviations
+Int8 inference on this Mac: 0.01 ms per row (the ESP32 will be slower)
+
+FALSE ALARMS on normal test traffic:
+  float:   1.0%   int8:   1.1%
+
+mirai_attacks:
+  ack.csv        float: 100.0%   int8: 100.0%
+  scan.csv       float: 100.0%   int8: 100.0%
+  syn.csv        float: 100.0%   int8: 100.0%
+  udp.csv        float: 100.0%   int8: 100.0%
+  udpplain.csv   float: 100.0%   int8: 100.0%
+
+gafgyt_attacks:
+  combo.csv      float: 100.0%   int8: 100.0%
+  junk.csv       float: 100.0%   int8: 100.0%
+  scan.csv       float: 100.0%   int8: 100.0%
+  tcp.csv        float: 100.0%   int8: 100.0%
+  udp.csv        float: 100.0%   int8: 100.0%
